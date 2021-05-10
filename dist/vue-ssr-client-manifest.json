@@ -1,0 +1,30 @@
+{
+  "publicPath": "auto",
+  "all": [
+    "runtime.2749246c6f405d266f91.js",
+    "app.04161345004421f13cb5.js",
+    "index.html"
+  ],
+  "initial": [],
+  "async": [
+    "runtime.2749246c6f405d266f91.js",
+    "app.04161345004421f13cb5.js"
+  ],
+  "modules": {
+    "5b899a9d": [
+      1
+    ],
+    "79d7841e": [
+      0
+    ],
+    "35b75c20": [
+      0
+    ],
+    "7aa80c74": [
+      0
+    ],
+    "b79d39d0": [
+      0
+    ]
+  }
+}

@@ -1,3 +1,3 @@
-export default function printMe() {
-  console.log('Updatin1488sg print.js...');
+export default function print(text) {
+  console.log(text);
 }

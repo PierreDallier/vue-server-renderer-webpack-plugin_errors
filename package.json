@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "start": "webpack serve --open",
-    "server": "node server.js",
-    "build": "webpack"
+    "dev": "node server",
+    "start": "cross-env NODE_ENV=production node server",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "webpack --config webpack.client.config.js --progress --stats-error-details",
+    "build:server": "webpack --config webpack.server.config.js --progress --stats-error-details"
   },
   "keywords": [],
   "author": "",
@@ -21,6 +21,10 @@
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "vue-server-renderer": "^2.6.12",
+    "webpack-dev-middleware": "^4.1.0",
+    "webpack-hot-middleware": "^2.25.0",
+    "webpack-node-externals": "^3.0.0"
   }
 }
