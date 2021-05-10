@@ -7,4 +7,4 @@ it a quick merge of:
  - Vue SSR hackernews https://github.com/vuejs/vue-hackernews-2.0
 
 
-to reproduce the mentionned error ```npm run dev```
+```npm run dev``` to reproduce the mentionned error 
